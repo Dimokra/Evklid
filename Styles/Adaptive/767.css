@@ -1,0 +1,63 @@
+@media (max-width: 767px) {
+
+    .header {
+        height: 132px;
+        padding: 10px 15px; 
+    }
+
+    .header__logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main {
+        padding-top: 132px; 
+    }
+
+    .header-nav {
+        display: none; 
+    }
+    .nav-search__button {
+        display: none;
+    }
+    .burgerBtn-toggle {
+        display: flex; 
+    }
+
+    .swiper {
+        width: calc(100% - 30px); 
+        height: 308px; 
+        margin: 15px auto;
+        border-radius: 10px;
+    }
+
+    .swiper-text {
+        text-align: center;
+        top: 20px; 
+        left: 15px;
+        width: calc(100% - 30px);
+        padding: 15px;
+        transform: none;
+        text-align: left;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+
+    .hero-heading {
+        font-size: clamp(24px, 7vw, 30px);
+        margin-bottom: 8px;
+    }
+    .hero-quote {
+        font-size: clamp(12px, 3vw, 15px);
+        margin-bottom: 15px;
+    }
+    .hero-button {
+        width: clamp(150px, 50vw, 180px);
+        height: clamp(40px, 12vh, 50px);
+        font-size: clamp(13px, 3.5vw, 16px);
+    }
+    .swiper-pagination {
+        bottom: 10px;
+    }
+}
+

@@ -1,0 +1,19 @@
+@import url("/Styles/normolize.css");
+@import url("/Styles/Fonts/fonts.css");
+@import url("/Styles/body.css");
+@import url("/Styles/Header/header.css"); 
+@import url("/Styles/Main/hero.css");
+@import url("/Styles/Sidebar/sidebar.css"); 
+
+@import url("/Styles/Adaptive/1919.css");
+@import url("/Styles/Adaptive/1023.css");
+@import url("/Styles/Adaptive/767.css");
+* {
+    box-sizing: border-box;
+}
+
+main {
+    flex-grow: 1;
+    padding-top: 100px;
+}
+

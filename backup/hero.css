@@ -1,0 +1,64 @@
+.hero {
+    margin: 75px;
+    width: 1770px;
+    height: 620px;
+    
+    border-radius: 32px;
+}
+
+.hero-text {
+    width: 837px;
+    word-break: normal;
+    position: relative;
+    z-index: 1;
+    padding: 70px 0 0 80px;
+}
+
+.hero-heading {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffffff; 
+}
+
+.hero-quote {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffffff;
+}
+
+.hero-button {
+    position: relative;
+    top: 40px;
+    left: 80px;
+    background-color: #FF9900;
+    border: none;
+    width: 280px;
+    height: 78px;
+    border-radius: 16px;
+    padding: 18.57px 37.14px 18.57px 37.14px;
+    font-family: "Montserrat";
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #ffffff
+}
+
+.hero-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-slider_image {
+    display: flex;
+    width: 300%;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 32px;
+}

@@ -1,0 +1,38 @@
+@media (max-width: 1919px) {
+    
+    .header {
+        height: 100px;
+    }
+    main {
+        padding-top: 100px;
+    }
+
+    .swiper {
+        width: calc(100% - 100px); 
+        height: 668px;
+        margin: 50px auto;
+        border-radius: 20px;
+    }
+
+    .swiper-text {
+        width: 70%;
+        max-width: 600px;
+        padding: 30px;
+    }
+    .hero-heading {
+        font-size: clamp(45px, 5vw, 60px);
+        margin-bottom: 15px;
+    }
+    .hero-quote {
+        font-size: clamp(18px, 2vw, 22px); 
+        margin-bottom: 30px;
+    }
+    .hero-button {
+        width: clamp(220px, 20vw, 260px);
+        height: clamp(65px, 7vh, 75px); 
+        font-size: clamp(20px, 2vw, 22px);
+    }
+    .swiper-pagination {
+        bottom: 25px;
+    }
+}
